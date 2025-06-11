@@ -3,7 +3,7 @@
 ### ✅ Costruzione e Avvio
 
 ```bash
-git clone https://github.com/nzo66/tvproxy.git
+git clone https://github.com/73tred2/proxyred.git
 cd tvproxy
 docker build -t tvproxy .
 docker run -d -p 7860:7860 --name tvproxy tvproxy
@@ -57,7 +57,7 @@ CMD ["gunicorn", "app:app", \
 
 ```bash
 # Clona il repository
-git clone https://github.com/nzo66/tvproxy.git
+git clone https://github.com/73tred2/proxyred.git
 cd tvproxy
 
 # Installa le dipendenze
